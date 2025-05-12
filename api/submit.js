@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
     const formData = req.body;
 
     // The FastAPI backend URL
-    const fastApiUrl = "http://<your-ec2-ip>:8000/submissions"; // Replace with your EC2 FastAPI URL
+    const fastApiUrl = "http://16.16.26.192:8000/submissions"; // Replace with your EC2 FastAPI URL
 
     try {
       // Send the data to FastAPI with the required authorization token
